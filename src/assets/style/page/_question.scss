@@ -1,0 +1,10 @@
+.questionItem{
+  margin-bottom: 32px;
+  @include sm{
+    margin-bottom: 24px;
+  }
+  
+}
+.questionItem:last-child{
+  margin-bottom: 0;
+}

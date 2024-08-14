@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+@import './style/variable';
+@import './style/mixin';
+@import './style/base';
+@import './style/layout';
+
+
+
+@import './style/component/header';
+@import './style/component/footer';
+
+
+@import './style/page/home';
+@import './style/page/productsLayout';
+@import './style/page/store';
+@import './style/page/question';
+@import './style/page/blog';
