@@ -59,7 +59,7 @@ const routes = [
   },
 ];
 const router = createRouter({
-  history: createWebHashHistory("/glass-website-vue/"),
+  history: createWebHashHistory(),
   routes,
   scrollBehavior() {
     // 跳轉頁面時皆自動回頁面頂部
